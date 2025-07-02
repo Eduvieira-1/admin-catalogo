@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="UseCaseTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-01T01:17:01" hostname="DESKTOP-LC4FCSK" time="0.012">
+<testsuite name="UseCaseTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:10:48" hostname="DESKTOP-LC4FCSK" time="0.009">
   <properties/>
-  <testcase name="testCreateUseCase()" classname="UseCaseTest" time="0.012"/>
+  <testcase name="testCreateUseCase()" classname="UseCaseTest" time="0.009"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

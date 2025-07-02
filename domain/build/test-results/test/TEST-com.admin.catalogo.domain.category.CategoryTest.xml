@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.admin.catalogo.domain.category.CategoryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-01T10:18:28" hostname="DESKTOP-LC4FCSK" time="0.013">
+<testsuite name="com.admin.catalogo.domain.category.CategoryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:18:51" hostname="DESKTOP-LC4FCSK" time="0.016">
   <properties/>
-  <testcase name="givenAValidParams_whenCallNewCategory_thenInstantiateACategory()" classname="com.admin.catalogo.domain.category.CategoryTest" time="0.013"/>
+  <testcase name="givenAnInValidNullName_whenCallNewCategoryAndValidate_thenShouldReceiveError()" classname="com.admin.catalogo.domain.category.CategoryTest" time="0.016"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
