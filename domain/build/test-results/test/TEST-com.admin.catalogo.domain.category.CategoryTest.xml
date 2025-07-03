@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.admin.catalogo.domain.category.CategoryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-02T02:18:51" hostname="DESKTOP-LC4FCSK" time="0.016">
+<testsuite name="com.admin.catalogo.domain.category.CategoryTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2025-07-03T03:01:45" hostname="DESKTOP-LC4FCSK" time="0.026">
   <properties/>
-  <testcase name="givenAnInValidNullName_whenCallNewCategoryAndValidate_thenShouldReceiveError()" classname="com.admin.catalogo.domain.category.CategoryTest" time="0.016"/>
+  <testcase name="givenAValidInactiveCategory_whenCallActivate_thenReturnCategoryActivated()" classname="com.admin.catalogo.domain.category.CategoryTest" time="0.016"/>
+  <testcase name="givenAnInvalidEmptyName_whenCallNewCategoryAndValidate_thenShouldReceiveError()" classname="com.admin.catalogo.domain.category.CategoryTest" time="0.002"/>
+  <testcase name="givenAnInvalidNameLengthMoreThan255_whenCallNewCategoryAndValidate_thenShouldReceiveError()" classname="com.admin.catalogo.domain.category.CategoryTest" time="0.001"/>
+  <testcase name="givenAValidFalseIsActive_whenCallNewCategoryAndValidate_thenShouldReceiveOK()" classname="com.admin.catalogo.domain.category.CategoryTest" time="0.001"/>
+  <testcase name="givenAValidEmptyDescription_whenCallNewCategoryAndValidate_thenShouldReceiveOK()" classname="com.admin.catalogo.domain.category.CategoryTest" time="0.001"/>
+  <testcase name="givenAValidActiveCategory_whenCallDeactivate_thenReturnCategoryInactivated()" classname="com.admin.catalogo.domain.category.CategoryTest" time="0.001"/>
+  <testcase name="givenAnInvalidNameLengthLessThan3_whenCallNewCategoryAndValidate_thenShouldReceiveError()" classname="com.admin.catalogo.domain.category.CategoryTest" time="0.0"/>
+  <testcase name="givenAnInValidNullName_whenCallNewCategoryAndValidate_thenShouldReceiveError()" classname="com.admin.catalogo.domain.category.CategoryTest" time="0.0"/>
+  <testcase name="givenAValidParams_whenCallNewCategory_thenInstantiateACategory()" classname="com.admin.catalogo.domain.category.CategoryTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
